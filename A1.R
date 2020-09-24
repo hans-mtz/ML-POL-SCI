@@ -1,0 +1,13 @@
+library(rio)
+library(tidyverse)
+library(dplyr)
+library(tidyr)
+library(rsample)
+library(car)
+library(ROCR)
+library(tibble)
+library(ggplot2)
+library(dplyr)
+
+anes16<-import("ML/ANES/raw/anes_timeseries_2016_dta/anes_timeseries_2016.dta")
+save(anes16,file="anes16.RData")
